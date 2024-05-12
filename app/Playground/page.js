@@ -49,7 +49,7 @@ const Page = () => {
                 placeholder="Enter Name"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="py-1 px-4 border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
+                className="w-32 py-1 px-4 border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
               />
               <motion.button whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }} className="search-btn py-1 px-4 ml-4 rounded-lg" type="submit">Filter</motion.button>
