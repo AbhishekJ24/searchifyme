@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-      <header className='flex justify-between p-8 text-white items-center mx-4'>
+      <header className='flex justify-between p-8 text-white items-center md:mx-36 mx-8'>
         <a href='/'> <img id='logo' className='w-20' src='logo.png' alt='not found' /> </a>
         <div id="nav-links-lap" className='flex items-center gap-12'>
           <Link className='hover:scale-105' href="/">Home</Link>
@@ -26,7 +26,7 @@ const Header = () => {
           </button>
         </div>
         {isMenuOpen && (
-          <div id='nav-links-mob' className='absolute right-16 top-16 w-28 h-32 p-5 rounded-xl shadow-lg z-10'>
+          <div id='nav-links-mob' className='absolute right-20 top-20 w-28 h-32 p-5 rounded-xl shadow-lg z-10'>
             <Link className='block mb-2' href="/">Home</Link>
             <Link className='block mb-2' href='/Playground'>Playground</Link>
             <Link className='block mb-2' href='/Docs'>Docs</Link>
