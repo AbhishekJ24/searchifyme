@@ -30,6 +30,9 @@
   #nav-links-lap {
     display: none;
   }
+  .area {
+    height: 1500vh;
+  }
 }
 
 .search-btn{
@@ -164,4 +167,9 @@ footer {
 
 .tablec{
   background-color: #f9eec9;
+}
+
+.doch{
+  color: #ffe796;
+  font-weight: 600;
 }
