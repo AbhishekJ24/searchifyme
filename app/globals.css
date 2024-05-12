@@ -32,8 +32,12 @@
   }
 }
 
+.search-btn{
+  background-color: #f6d365;
+}
+
 .head {
-  font-size: 6rem;
+  font-size: 60px;
   font-weight: 800;
   background: linear-gradient(120deg, #fda085, #f6d365, #ffe796, #f6d365, #fda085);
   -webkit-background-clip: text;
@@ -42,7 +46,7 @@
 
 .headpara {
   color: #f9eec9;
-  font-size: 2rem;
+  font-size: 26px;
 }
 
 footer {
@@ -53,6 +57,7 @@ footer {
   position: absolute;
   height: 100vh;
   background-color: #dca800;
+  overflow:auto;
 }
 
 .circles {
@@ -151,4 +156,12 @@ footer {
     opacity: 0;
     border-radius: 50%;
   }
+}
+
+.tableh{
+  background-color: #f6d365;
+}
+
+.tablec{
+  background-color: #f9eec9;
 }
