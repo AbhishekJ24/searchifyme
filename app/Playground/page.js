@@ -40,10 +40,10 @@ const Page = () => {
   return (
     <div>
       <h1 className="text-5xl font-extrabold mt-8 mb-8 text-center">Welcome to Playground</h1>
-      <header>
+      <header className='flex justify-center'>
         <nav className="px-16 flex items-center justify-between">
           <div>
-            <form onSubmit={handleSearch} className='absolute right-8'>
+            <form onSubmit={handleSearch}>
               <input
                 type="text"
                 placeholder="Enter Name"
@@ -62,10 +62,6 @@ const Page = () => {
           <thead>
             <tr className="tableh h-14">
               <th>Name</th>
-              <th>Age</th>
-              <th>Gender</th>
-              <th>Email</th>
-              <th>Phone Number</th>
               <th>Address</th>
             </tr>
           </thead>
@@ -73,10 +69,6 @@ const Page = () => {
             {currentEntries.map((user) => (
               <tr className="tablec text-center" key={user.id}>
                 <td className="px-4 py-2">{user.firstName + " " + user.lastName}</td>
-                <td className="px-4 py-2">{user.age}</td>
-                <td className="px-4 py-2">{user.gender}</td>
-                <td className="px-4 py-2">{user.email}</td>
-                <td className="px-4 py-2">{user.phone}</td>
                 <td className="px-4 py-2">{user.address.address + ", " + user.address.city}</td>
               </tr>
             ))}
