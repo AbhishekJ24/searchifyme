@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const page = () => {
   return (
     <>
-      <div className='m-10 md:w-96 md:m-auto'>
+      <div className='m-10 md:w-96 md:m-auto docsbox'>
         <div className="text-4xl font-extrabold mt-8 mb-8 flex justify-center md:text-6xl">Documentation</div>
         <p className='md:text-2xl text-center'>
           Welcome to the Searchify Documentation! Searchify is a web application built to provide seamless user search experiences. It leverages modern web technologies to deliver efficient data handling and a responsive user interface.
